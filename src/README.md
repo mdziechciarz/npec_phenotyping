@@ -1,5 +1,5 @@
 
-# Mark Processor
+# Automated Plant Phenotyper - Computer Vision Pipeline
 
 This repository contains the code for a machine learning pipeline designed to process images, perform instance segmentation, and extract relevant features for further analysis.
 
@@ -14,7 +14,7 @@ This repository contains the code for a machine learning pipeline designed to pr
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/BredaUniversityADSAI/2023-24d-fai2-adsai-group-cv-3.git
+    git clone https://github.com/mdziechciarz/npec_phenotyping.git
     ```
 2. Navigate to the project directory:
     ```bash
