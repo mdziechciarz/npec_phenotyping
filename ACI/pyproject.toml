@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "mark-processor"
+version = "0.1.0"
+description = ""
+authors = ["neildaniel221270 <112754523+neildaniel221270@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11.4"
+pandas = ">=2.2.2,<3.0.0"
+numpy = ">=1.26.4,<2.0.0"
+matplotlib = ">=3.8.4,<4.0.0"
+seaborn = ">=0.13.2,<0.14.0"
+scikit-learn = ">=1.4.2,<2.0.0"
+tensorflow = ">2.9,<2.16.1"
+opencv-python-headless = ">=4.7.0.72,<5.0.0.0"
+patchify = ">=0.2.3,<0.3.0"
+networkx = ">=3.1,<4.0"
+scikit-image = ">=0.21.0,<0.22.0"
+skan = ">=0.11.0,<0.12.0"
+typer = ">=0.9.0,<0.10.0"
+uvicorn = "^0.20.0"
+Flask = "^2.0.1"
+requests = "^2.25.1"
+python-dotenv = "^0.17.1"
+fastapi = "^0.68.0"
+python-multipart = "^0.0.5"
+pytest = "^8.2.0"
+
+[tool.poetry2conda]
+name = "mark-processor"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

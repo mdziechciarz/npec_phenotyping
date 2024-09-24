@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>landmarks_detection Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+
+
+
+
+  </head><body>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+
+
+          <div class="body" role="main">
+
+  <section id="landmarks-detection-module">
+<h1>landmarks_detection Module<a class="headerlink" href="#landmarks-detection-module" title="Link to this heading">¶</a></h1>
+<dl class="py function" id="module-landmarks_detection">
+<dt class="sig sig-object py" id="landmarks_detection.detect_landmarks">
+<span class="sig-prename descclassname"><span class="pre">landmarks_detection.</span></span><span class="sig-name descname"><span class="pre">detect_landmarks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mask</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#landmarks_detection.detect_landmarks" title="Link to this definition">¶</a></dt>
+<dd><p>Detect landmarks such as primary root start and end points, and lateral root tips
+from the provided mask.</p>
+<p>&#64;param mask: Binary mask representing the segmented instances.
+&#64;type mask: numpy.ndarray
+&#64;return: List of dictionaries containing the coordinates of primary root start and end points,</p>
+<blockquote>
+<div><p>and lateral root tips.</p>
+</div></blockquote>
+<p>&#64;rtype: list[dict]
+&#64;author: Rens van den Berg</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instance_segmentation.html">instance_segmentation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mask_prediction.html">mask_prediction Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_creation.html">model_creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_lenght_measurement.html">root_lenght_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+
+      |
+      <a href="_sources/landmark_detection.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+
+
+
+  </body>
+</html>

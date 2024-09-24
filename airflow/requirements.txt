@@ -1,0 +1,3 @@
+azure-ai-ml
+azure-core
+airflow-provider-azure-machinelearning

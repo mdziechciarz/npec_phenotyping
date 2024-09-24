@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>data_preprocessing Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="evaluation_metrics Module" href="evaluation_metrics.html" />
+    <link rel="prev" title="data_loading Module" href="data_loading.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-data_preprocessing">
+<span id="data-preprocessing-module"></span><h1>data_preprocessing Module<a class="headerlink" href="#module-data_preprocessing" title="Link to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="data_preprocessing.extract_roi">
+<span class="sig-prename descclassname"><span class="pre">data_preprocessing.</span></span><span class="sig-name descname"><span class="pre">extract_roi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_preprocessing.extract_roi" title="Link to this definition">¶</a></dt>
+<dd><p>Extract the region of interest (ROI) from an image by identifying the largest contour,
+which is assumed to be the Petri dish, and cropping the image accordingly.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>image</strong> (<em>numpy.ndarray</em>) – Input image from which to extract the ROI.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple containing the cropped ROI image and the coordinates (x, y) and dimensions (width, height) of the bounding box.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple[numpy.ndarray, int, int, int, int]</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Neil Ross Daniel</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function can be used to extract the region of interest (ROI) from an image by identifying the largest contour.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>
+<span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">extract_roi</span>
+
+<span class="c1"># Load an image</span>
+<span class="n">image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;petri_dish_image.png&#39;</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">IMREAD_GRAYSCALE</span><span class="p">)</span>
+
+<span class="c1"># Extract the ROI</span>
+<span class="n">roi</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">w</span><span class="p">,</span> <span class="n">h</span> <span class="o">=</span> <span class="n">extract_roi</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+
+<span class="c1"># Display the original image and the ROI</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;Original Image&#39;</span><span class="p">,</span> <span class="n">image</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;Extracted ROI&#39;</span><span class="p">,</span> <span class="n">roi</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<p>The function performs the following steps:</p>
+<ol class="arabic simple">
+<li><p>Thresholds the input image to a binary image using Otsu’s method.</p></li>
+<li><p>Finds contours in the binary image.</p></li>
+<li><p>Identifies the largest contour, assuming it to be the Petri dish.</p></li>
+<li><p>Calculates the bounding box of the largest contour.</p></li>
+<li><p>Crops the image to the bounding box with some padding to ensure the whole Petri dish is included.</p></li>
+<li><p>Adjusts the bounding box to get a square ROI based on the largest side.</p></li>
+<li><p>Crops the image to the adjusted ROI.</p></li>
+</ol>
+<p>The function returns a tuple containing:
+- <cite>roi</cite>: The cropped region of interest image.
+- <cite>x</cite>: The x-coordinate of the top-left corner of the bounding box.
+- <cite>y</cite>: The y-coordinate of the top-left corner of the bounding box.
+- <cite>w</cite>: The width of the bounding box.
+- <cite>h</cite>: The height of the bounding box.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_preprocessing.preprocess_images">
+<span class="sig-prename descclassname"><span class="pre">data_preprocessing.</span></span><span class="sig-name descname"><span class="pre">preprocess_images</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scaling_factor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">test_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">val_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">patch_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_preprocessing.preprocess_images" title="Link to this definition">¶</a></dt>
+<dd><p>Preprocess raw images and masks by extracting regions of interest (ROI), resizing, patchifying,
+and distributing them into train, test, and validation subsets.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dataset_path</strong> (<em>str</em>) – Path to the dataset directory containing raw images and masks.</p></li>
+<li><p><strong>scaling_factor</strong> (<em>float</em><em>, </em><em>optional</em>) – Factor by which to scale the images and masks, defaults to 1 (no scaling).</p></li>
+<li><p><strong>test_size</strong> (<em>float</em><em>, </em><em>optional</em>) – Proportion of the dataset to include in the test split, defaults to 0.2.</p></li>
+<li><p><strong>val_size</strong> (<em>float</em><em>, </em><em>optional</em>) – Proportion of the training set to include in the validation split, defaults to 0.1.</p></li>
+<li><p><strong>patch_size</strong> (<em>int</em><em>, </em><em>optional</em>) – Size of the patches to divide the images and masks into, defaults to 256.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Neil Ross Daniel</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function can be used to preprocess and organize a dataset of raw images and masks for machine learning tasks.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">preprocess_images</span>
+
+<span class="c1"># Set dataset path</span>
+<span class="n">dataset_path</span> <span class="o">=</span> <span class="s1">&#39;/path/to/dataset&#39;</span>
+
+<span class="c1"># Preprocess the images</span>
+<span class="n">preprocess_images</span><span class="p">(</span>
+    <span class="n">dataset_path</span><span class="p">,</span>
+    <span class="n">scaling_factor</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+    <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span>
+    <span class="n">val_size</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+    <span class="n">patch_size</span><span class="o">=</span><span class="mi">256</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<p>The function performs the following steps:</p>
+<ol class="arabic simple">
+<li><p>Collects all image file paths from the ‘images_raw’ directory.</p></li>
+<li><p>Splits the dataset into train, test, and validation sets.</p></li>
+<li><p>Creates the necessary output directories for train, test, and validation subsets.</p></li>
+<li><p>Distributes and processes images and their corresponding masks into the appropriate subsets:
+- Extracts the ROI from each image using the <cite>extract_roi</cite> function.
+- Resizes the images and masks.
+- Pads the images and masks to ensure they can be evenly divided into patches.
+- Scales the images and masks if a scaling factor is provided.
+- Divides the images and masks into patches of the specified size.
+- Saves the patches into the corresponding subset directories.</p></li>
+<li><p>Deletes the ‘images_raw’ and ‘masks_raw’ directories and their contents.</p></li>
+</ol>
+<p>The function returns <cite>None</cite>.</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">data_preprocessing Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data_preprocessing.extract_roi"><code class="docutils literal notranslate"><span class="pre">extract_roi()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data_preprocessing.preprocess_images"><code class="docutils literal notranslate"><span class="pre">preprocess_images()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instance_segmentation.html">instance_segmentation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="landmarks_detection.html">landmarks_detection Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mask_prediction.html">mask_prediction Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_creation.html">model_creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_length_measurement.html">root_length_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="data_loading.html" title="previous chapter">data_loading Module</a></li>
+      <li>Next: <a href="evaluation_metrics.html" title="next chapter">evaluation_metrics Module</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/data_preprocessing.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

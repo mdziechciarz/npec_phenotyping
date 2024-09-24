@@ -1,0 +1,95 @@
+GROUP- CV-3/
+│
+├── .github/workflows/
+│   ├── pre-commit.yml
+│   ├── lint.yml
+|   └── tests.yml
+│
+├── pipelines
+│   ├── create_components.py
+│   ├── inference_pipeline.py
+│   ├── retraining_pipeline.py
+│   └── training_pipeline.py
+|
+├── src/
+│   ├── __init__.py
+│   ├── data_loading.py
+│   │   ├── load_data_generators()
+│   │   └── validate_dataset()
+│   ├── data_processing.py
+│   │   ├── extract_roi()
+│   │   └── preprocess_images()
+|   |       └── distribute_files()
+│   ├── evaluation_metrics.py
+│   │   ├── f1()
+│   │   └── iou()
+│   ├── instance_segmentation.py
+│   │   └── segment_instances()
+│   ├── landmark_detection.py
+│   │   └── detect_landmarks()
+│   ├── main.py
+│   │   ├── train_new_model()
+│   │   ├── predict_using_custom_model()
+│   │   ├── predict_using_primary_model()
+|   |   └── infer()
+│   ├── mask_prediction.py
+│   │   └── predict_mask()
+│   ├── model_creation.py
+│   │   ├── build_model()
+│   │   ├── save_model()
+│   │   └── load_pretrained_model()
+│   ├── model_evaluation.py
+│   │   └── evaluate_model()
+│   ├── model_training.py
+│   │   ├── train_model()
+│   │   ├── hyperparameter_search()
+│   │   └── save_model()
+│   ├── README.md
+│   ├── root_lenght_measurement.py
+│   │   └── measure_root_lengths()
+│   └── utils.py
+|       └── padder()
+│
+├── data/
+│   ├── testing_dataset/
+│   │   ├── test/
+│   │   ├── train/
+│   │   └── val
+│   ├── user_custom_datasets/alpha/
+│   │   ├── train/
+│   │   └── val
+│
+├── models/
+│   ├── README.md
+|   └── primary.h5
+│
+├── notebooks/
+|   └── README.md
+│
+├── docs/
+│   ├── README.md
+│
+├── tests/
+│   ├── evaluation_metrics_test.py
+│   ├── landmark_detection_test.py
+│   ├── test_data_loading.py
+│   ├── test_data_preprocessing.py
+│   ├── test_instance_segmentation.py
+│   ├── test_landmarks_detection.py
+│   ├── test_mask_prediction.py
+│   ├── test_model_creation.py
+│   ├── test_model_training.py
+│   ├── test_root_lenght_measurement.py
+|   └── primary.h5
+│
+├── .gitignore
+├── .pre-commit-config.yaml
+├── dockerfile
+├── environment.yaml
+├── poetry.lock
+├── requirments.txt
+├── LICENSE
+├── setup.py
+├── python_package.txt
+├── README.md
+└── pyproject.toml

@@ -1,0 +1,57 @@
+Project Modules
+===============
+
+.. automodule:: data_loading
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: data_preprocessing
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: evaluation_metrics
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: instance_segmentation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: landmarks_detection
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: main
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: mask_prediction
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: model_creation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: model_evaluation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: model_training
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: root_lenght_measurement
+    :members:
+    :undoc-members:
+    :show-inheritance:

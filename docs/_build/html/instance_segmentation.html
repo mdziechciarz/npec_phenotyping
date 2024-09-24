@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>instance_segmentation Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="landmarks_detection Module" href="landmarks_detection.html" />
+    <link rel="prev" title="evaluation_metrics Module" href="evaluation_metrics.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="instance-segmentation-module">
+<h1>instance_segmentation Module<a class="headerlink" href="#instance-segmentation-module" title="Link to this heading">¶</a></h1>
+<dl class="py function" id="module-instance_segmentation">
+<dt class="sig sig-object py" id="instance_segmentation.segment_instances">
+<span class="sig-prename descclassname"><span class="pre">instance_segmentation.</span></span><span class="sig-name descname"><span class="pre">segment_instances</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mask</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#instance_segmentation.segment_instances" title="Link to this definition">¶</a></dt>
+<dd><p>Segment instances in a given binary mask using morphological operations and the watershed algorithm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>mask</strong> (<em>numpy.ndarray</em>) – Input binary mask where instances are to be segmented.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A labeled mask where each instance has a unique label.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>numpy.ndarray</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Neil Ross Daniel</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function can be used to segment individual instances from a binary mask using a combination of morphological operations and connected components analysis.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">segment_instances</span>
+
+<span class="c1"># Load a binary mask image</span>
+<span class="n">mask</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;binary_mask.png&#39;</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">IMREAD_GRAYSCALE</span><span class="p">)</span>
+
+<span class="c1"># Segment instances in the mask</span>
+<span class="n">labeled_mask</span> <span class="o">=</span> <span class="n">segment_instances</span><span class="p">(</span><span class="n">mask</span><span class="p">)</span>
+
+<span class="c1"># Save or display the result</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">imwrite</span><span class="p">(</span><span class="s1">&#39;labeled_mask.png&#39;</span><span class="p">,</span> <span class="n">labeled_mask</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="s1">&#39;Labeled Mask&#39;</span><span class="p">,</span> <span class="n">labeled_mask</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<p>The function performs the following steps:</p>
+<ol class="arabic simple">
+<li><p>Applies morphological closing operation to the input mask using a rectangular structuring element.</p></li>
+<li><p>Detects connected components in the processed mask.</p></li>
+<li><p>Filters components based on defined width and height thresholds.</p></li>
+<li><p>Sorts the components by area and keeps the top 5 largest components.</p></li>
+<li><p>Checks if the centroids of the top components fall within expected plant locations.</p></li>
+<li><p>Labels the top components in the output image with unique colors.</p></li>
+</ol>
+<p>The function returns an output image where each segmented instance is labeled with a unique color.</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preprocessing.html">data_preprocessing Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">instance_segmentation Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instance_segmentation.segment_instances"><code class="docutils literal notranslate"><span class="pre">segment_instances()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="landmarks_detection.html">landmarks_detection Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mask_prediction.html">mask_prediction Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_creation.html">model_creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_length_measurement.html">root_length_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="evaluation_metrics.html" title="previous chapter">evaluation_metrics Module</a></li>
+      <li>Next: <a href="landmarks_detection.html" title="next chapter">landmarks_detection Module</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/instance_segmentation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

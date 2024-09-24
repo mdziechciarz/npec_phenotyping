@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>model_registration Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="model-registration-module">
+<h1>model_registration Module<a class="headerlink" href="#model-registration-module" title="Link to this heading">¶</a></h1>
+<dl class="py function" id="module-model_registration">
+<dt class="sig sig-object py" id="model_registration.register_if_IOU_above_threshold">
+<span class="sig-prename descclassname"><span class="pre">model_registration.</span></span><span class="sig-name descname"><span class="pre">register_if_IOU_above_threshold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">metrics_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_registration.register_if_IOU_above_threshold" title="Link to this definition">¶</a></dt>
+<dd><p>Register the model if the IOU metric is above the given threshold.</p>
+<p>This function reads the metrics from a JSON file and registers the model if the IOU (Intersection Over Union)
+value is above the specified threshold.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model_path</strong> (<em>str</em>) – Path to the model file.</p></li>
+<li><p><strong>model_name</strong> (<em>str</em>) – Name to register the model under.</p></li>
+<li><p><strong>metrics_path</strong> (<em>str</em>) – Path to the JSON file containing model metrics.</p></li>
+<li><p><strong>threshold</strong> (<em>float</em>) – IOU threshold value.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">register_if_IOU_above_threshold</span><span class="p">(</span><span class="s2">&quot;/path/to/model&quot;</span><span class="p">,</span> <span class="s2">&quot;my_model_name&quot;</span><span class="p">,</span> <span class="s2">&quot;/path/to/metrics&quot;</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Note<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Ensure that the metrics file exists at the specified path and contains an ‘iou’ key.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="model_registration.register_model">
+<span class="sig-prename descclassname"><span class="pre">model_registration.</span></span><span class="sig-name descname"><span class="pre">register_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">model_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_registration.register_model" title="Link to this definition">¶</a></dt>
+<dd><p>Register a model in the AzureML model registry.</p>
+<p>This function registers a model in the AzureML model registry using the provided model path and name.
+It uses <cite>ClientSecretCredential</cite> for authentication and <cite>MLClient</cite> to interact with the AzureML workspace.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model_path</strong> (<em>str</em>) – Path to the model file.</p></li>
+<li><p><strong>model_name</strong> (<em>str</em>) – Name to register the model under.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Lea Bancovac</p>
+</dd>
+<dt class="field-odd">Example<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+</dl>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">register_model</span><span class="p">(</span><span class="s2">&quot;/path/to/model&quot;</span><span class="p">,</span> <span class="s2">&quot;my_model_name&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Note<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Ensure that the model file exists at the specified path and the credentials are correctly set up.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preprocessing.html">data_preprocessing Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instance_segmentation.html">instance_segmentation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="landmarks_detection.html">landmarks_detection Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mask_prediction.html">mask_prediction Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_creation.html">model_creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_length_measurement.html">root_length_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/utils copy.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,6 @@
+data/*
+*/__pycache__/*
+ACI/.env
+.env
+src/.env
+config.json

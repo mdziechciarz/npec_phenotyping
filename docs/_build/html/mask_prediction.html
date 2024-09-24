@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>mask_prediction Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="model_creation Module" href="model_creation.html" />
+    <link rel="prev" title="main Module" href="main.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="mask-prediction-module">
+<h1>mask_prediction Module<a class="headerlink" href="#mask-prediction-module" title="Link to this heading">¶</a></h1>
+<dl class="py function" id="module-mask_prediction">
+<dt class="sig sig-object py" id="mask_prediction.predict_mask">
+<span class="sig-prename descclassname"><span class="pre">mask_prediction.</span></span><span class="sig-name descname"><span class="pre">predict_mask</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_img_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">patch_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mask_prediction.predict_mask" title="Link to this definition">¶</a></dt>
+<dd><p>Predict the segmentation mask for an input image using the provided model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> (<em>keras.models.Model</em>) – The pre-trained model used for prediction.</p></li>
+<li><p><strong>input_img_path</strong> (<em>str</em>) – Path to the input image.</p></li>
+<li><p><strong>patch_size</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default is 256</em><em>)</em>) – Size of the patches for model prediction.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Predicted segmentation mask.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>numpy.ndarray</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Michal Dziechciarz</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function predicts a segmentation mask for an input image using a pre-trained model.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">predict_mask</span><span class="p">,</span> <span class="n">load_pretrained_model</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">load_pretrained_model</span><span class="p">(</span><span class="s2">&quot;models/primary.h5&quot;</span><span class="p">)</span>
+<span class="n">mask</span> <span class="o">=</span> <span class="n">predict_mask</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="s2">&quot;path/to/my_image.png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<ul class="simple">
+<li><p>Loads the input image in grayscale.</p></li>
+<li><p>Extracts the region of interest (ROI) based on predefined coordinates and dimensions.</p></li>
+<li><p>Pads the image to ensure dimensions are divisible by the patch size.</p></li>
+<li><p>Splits the image into patches, performs predictions on each patch, and reassembles the patches into a full mask.</p></li>
+<li><p>Applies a threshold to the predicted mask to binarize it.</p></li>
+</ul>
+<p>This function is useful for applying a pre-trained model to generate segmentation masks for input images.</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preprocessing.html">data_preprocessing Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instance_segmentation.html">instance_segmentation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="landmarks_detection.html">landmarks_detection Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main Module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">mask_prediction Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mask_prediction.predict_mask"><code class="docutils literal notranslate"><span class="pre">predict_mask()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="model_creation.html">model_creation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_length_measurement.html">root_length_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="main.html" title="previous chapter">main Module</a></li>
+      <li>Next: <a href="model_creation.html" title="next chapter">model_creation Module</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/mask_prediction.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

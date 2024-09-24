@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        .result-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Prediction Result</h1>
+            <p>The predicted landmarks are displayed below.</p>
+        </div>
+        <div class="text-center">
+            <img src="data:image/png;base64,{{ image }}" alt="Result Image" class="result-image">
+        </div>
+        <div class="mt-5">
+            <h2>Detected Landmarks</h2>
+            {{ landmarks | safe }}
+        </div>
+        <div class="text-center mt-5">
+            <a href="/" class="btn btn-primary">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

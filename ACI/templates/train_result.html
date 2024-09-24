@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Training Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Training Result</h1>
+            <p>The model was trained successfully.</p>
+        </div>
+        <div class="text-center">
+            <p><strong>Accuracy:</strong> {{ accuracy }}</p>
+            <p><strong>Loss:</strong> {{ loss }}</p>
+        </div>
+        <div class="text-center mt-5">
+            <a href="/" class="btn btn-primary">Back to Home</a>
+            <a href="{{ model_path }}" class="btn btn-secondary" download>Download Model</a>
+        </div>
+    </div>
+</body>
+</html>

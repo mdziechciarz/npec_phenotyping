@@ -1,0 +1,7 @@
+[run]
+omit =
+    src/main.py
+    src/model_registration.py
+    src/scoring_local.py 
+    src/scoring_cloud.py
+    src/scoring_cloud2.py 

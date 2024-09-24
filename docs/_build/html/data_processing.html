@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>data_preprocessing Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=61cd365c" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
+
+
+
+
+  </head><body>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+
+
+          <div class="body" role="main">
+
+  <section id="module-data_preprocessing">
+<span id="data-preprocessing-module"></span><h1>data_preprocessing Module<a class="headerlink" href="#module-data_preprocessing" title="Link to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="data_preprocessing.get_mask_type">
+<span class="sig-prename descclassname"><span class="pre">data_preprocessing.</span></span><span class="sig-name descname"><span class="pre">get_mask_type</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_preprocessing.get_mask_type" title="Link to this definition">¶</a></dt>
+<dd><p>Extract the mask type from the filename.</p>
+<p>&#64;param filename: The name of the file.
+&#64;type filename: str
+&#64;return: The type of mask if found, otherwise None.
+&#64;rtype: str or None</p>
+<p>&#64;author: Neil Ross Daniel</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="data_preprocessing.preprocess_images">
+<span class="sig-prename descclassname"><span class="pre">data_preprocessing.</span></span><span class="sig-name descname"><span class="pre">preprocess_images</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_dataset_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_dataset_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scaling_factor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#data_preprocessing.preprocess_images" title="Link to this definition">¶</a></dt>
+<dd><p>Preprocess images and their corresponding masks by cropping, padding, resizing,
+and patchifying them. Saves the processed patches to the specified output directory.</p>
+<p>&#64;param input_dataset_path: Path to the input dataset directory.
+&#64;type input_dataset_path: str
+&#64;param output_dataset_path: Path to the output dataset directory.
+&#64;type output_dataset_path: str
+&#64;param scaling_factor: Factor by which to scale the images and masks, defaults to 1.
+&#64;type scaling_factor: int, optional</p>
+<p>&#64;author: Neil Ross Daniel</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Project Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+
+      |
+      <a href="_sources/data_processing.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,460 @@
+[2024-06-12T11:40:00.996+0000] {processor.py:161} INFO - Started process (PID=100) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:00.998+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:40:01.000+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:40:01.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:01.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:01.670+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.677 seconds
+[2024-06-12T11:40:31.727+0000] {processor.py:161} INFO - Started process (PID=158) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:31.728+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:40:31.730+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:40:31.729+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:31.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:40:31.895+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2024-06-12T11:41:02.198+0000] {processor.py:161} INFO - Started process (PID=216) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:02.199+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:41:02.201+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:41:02.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:02.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:02.372+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.177 seconds
+[2024-06-12T11:41:32.655+0000] {processor.py:161} INFO - Started process (PID=274) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:32.656+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:41:32.657+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:41:32.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:32.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:41:32.831+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.179 seconds
+[2024-06-12T11:42:03.509+0000] {processor.py:161} INFO - Started process (PID=336) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:03.510+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:42:03.511+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:42:03.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:03.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:03.679+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2024-06-12T11:42:33.952+0000] {processor.py:161} INFO - Started process (PID=390) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:33.953+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:42:33.954+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:42:33.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:34.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:42:34.149+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.201 seconds
+[2024-06-12T11:43:04.309+0000] {processor.py:161} INFO - Started process (PID=448) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:04.310+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:43:04.312+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:43:04.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:04.577+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:04.585+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.280 seconds
+[2024-06-12T11:43:34.845+0000] {processor.py:161} INFO - Started process (PID=510) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:34.846+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:43:34.847+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:43:34.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:35.095+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:43:35.103+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.262 seconds
+[2024-06-12T11:44:05.281+0000] {processor.py:161} INFO - Started process (PID=568) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:05.281+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:44:05.283+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:44:05.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:05.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:05.445+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2024-06-12T11:44:35.569+0000] {processor.py:161} INFO - Started process (PID=624) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:35.570+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:44:35.571+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:44:35.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:35.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:44:35.828+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.262 seconds
+[2024-06-12T11:45:06.317+0000] {processor.py:161} INFO - Started process (PID=684) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:06.318+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:45:06.319+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:45:06.319+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:06.576+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:06.586+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.273 seconds
+[2024-06-12T11:45:37.569+0000] {processor.py:161} INFO - Started process (PID=742) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:37.569+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:45:37.571+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:45:37.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:37.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:45:37.821+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.256 seconds
+[2024-06-12T11:46:07.889+0000] {processor.py:161} INFO - Started process (PID=800) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:07.890+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:46:07.891+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:46:07.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:08.141+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:08.148+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.263 seconds
+[2024-06-12T11:46:38.367+0000] {processor.py:161} INFO - Started process (PID=858) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:38.368+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:46:38.369+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:46:38.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:38.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:46:38.635+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.271 seconds
+[2024-06-12T11:47:08.816+0000] {processor.py:161} INFO - Started process (PID=916) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:08.817+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:47:08.818+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:47:08.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:09.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:09.076+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.263 seconds
+[2024-06-12T11:47:39.271+0000] {processor.py:161} INFO - Started process (PID=974) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:39.272+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:47:39.273+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:47:39.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:39.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:47:39.551+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.284 seconds
+[2024-06-12T11:48:10.498+0000] {processor.py:161} INFO - Started process (PID=1032) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:10.499+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:48:10.500+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:48:10.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:10.750+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:10.757+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.262 seconds
+[2024-06-12T11:48:40.922+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:40.922+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:48:40.924+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:48:40.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:41.168+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:48:41.176+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.258 seconds
+[2024-06-12T11:49:11.576+0000] {processor.py:161} INFO - Started process (PID=1148) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:11.576+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:49:11.577+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:49:11.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:11.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:11.824+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.252 seconds
+[2024-06-12T11:49:41.895+0000] {processor.py:161} INFO - Started process (PID=1206) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:41.896+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:49:41.897+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:49:41.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:42.147+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:49:42.155+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.263 seconds
+[2024-06-12T11:50:12.507+0000] {processor.py:161} INFO - Started process (PID=1264) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:12.508+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:50:12.510+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:50:12.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:12.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:12.767+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.263 seconds
+[2024-06-12T11:50:43.730+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:43.730+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:50:43.731+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:50:43.731+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:43.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:50:43.987+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.260 seconds
+[2024-06-12T11:51:14.746+0000] {processor.py:161} INFO - Started process (PID=1380) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:14.747+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:51:14.749+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:51:14.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:15.016+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:15.026+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.283 seconds
+[2024-06-12T11:51:45.216+0000] {processor.py:161} INFO - Started process (PID=1438) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:45.216+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:51:45.218+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:51:45.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:45.470+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:51:45.477+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.265 seconds
+[2024-06-12T11:52:16.099+0000] {processor.py:161} INFO - Started process (PID=1496) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:16.099+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:52:16.100+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:52:16.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:16.350+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:16.358+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.263 seconds
+[2024-06-12T11:52:47.000+0000] {processor.py:161} INFO - Started process (PID=1554) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:47.002+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:52:47.003+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:52:47.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:47.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:52:47.258+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.262 seconds
+[2024-06-12T11:53:17.442+0000] {processor.py:161} INFO - Started process (PID=1618) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:17.443+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:53:17.445+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:53:17.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:17.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:17.721+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.283 seconds
+[2024-06-12T11:53:48.608+0000] {processor.py:161} INFO - Started process (PID=1676) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:48.609+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:53:48.611+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:53:48.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:48.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:53:48.912+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.307 seconds
+[2024-06-12T11:54:18.952+0000] {processor.py:161} INFO - Started process (PID=1734) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:18.952+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:54:18.953+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:54:18.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:19.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:19.211+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.264 seconds
+[2024-06-12T11:54:50.014+0000] {processor.py:161} INFO - Started process (PID=1792) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:50.015+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:54:50.016+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:54:50.016+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:50.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:54:50.276+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.266 seconds
+[2024-06-12T11:55:20.659+0000] {processor.py:161} INFO - Started process (PID=1851) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:20.660+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:55:20.661+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:55:20.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:20.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:20.902+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.246 seconds
+[2024-06-12T11:55:51.842+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:51.843+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:55:51.844+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:55:51.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:52.073+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:55:52.080+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.241 seconds
+[2024-06-12T11:56:22.393+0000] {processor.py:161} INFO - Started process (PID=1969) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:22.394+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:56:22.395+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:56:22.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:22.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:22.661+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.272 seconds
+[2024-06-12T11:56:52.830+0000] {processor.py:161} INFO - Started process (PID=2028) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:52.831+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:56:52.832+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:56:52.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:53.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:56:53.092+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.266 seconds
+[2024-06-12T11:57:23.326+0000] {processor.py:161} INFO - Started process (PID=2087) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:23.327+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:57:23.328+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:57:23.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:23.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:23.574+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.251 seconds
+[2024-06-12T11:57:53.754+0000] {processor.py:161} INFO - Started process (PID=2146) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:53.755+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:57:53.756+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:57:53.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:54.022+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:57:54.029+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.279 seconds
+[2024-06-12T11:58:24.208+0000] {processor.py:161} INFO - Started process (PID=2205) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:24.209+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:58:24.210+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:58:24.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:24.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:24.455+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.251 seconds
+[2024-06-12T11:58:54.696+0000] {processor.py:161} INFO - Started process (PID=2265) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:54.697+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:58:54.698+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:58:54.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:54.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:58:54.950+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.257 seconds
+[2024-06-12T11:59:25.095+0000] {processor.py:161} INFO - Started process (PID=2324) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:25.096+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:59:25.098+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:59:25.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:25.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:25.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.254 seconds
+[2024-06-12T11:59:56.320+0000] {processor.py:161} INFO - Started process (PID=2383) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:56.320+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T11:59:56.322+0000] {logging_mixin.py:188} INFO - [2024-06-12T11:59:56.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:56.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T11:59:56.565+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.249 seconds
+[2024-06-12T12:00:26.811+0000] {processor.py:161} INFO - Started process (PID=2442) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:26.812+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:00:26.814+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:00:26.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:27.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:27.066+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.258 seconds
+[2024-06-12T12:00:57.487+0000] {processor.py:161} INFO - Started process (PID=2501) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:57.488+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:00:57.489+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:00:57.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:57.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:00:57.786+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.302 seconds
+[2024-06-12T12:01:28.414+0000] {processor.py:161} INFO - Started process (PID=2560) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:28.416+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:01:28.419+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:01:28.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:28.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:28.767+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.357 seconds
+[2024-06-12T12:01:58.820+0000] {processor.py:161} INFO - Started process (PID=2619) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:58.821+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:01:58.822+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:01:58.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:59.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:01:59.082+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.266 seconds
+[2024-06-12T12:02:29.849+0000] {processor.py:161} INFO - Started process (PID=2678) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:02:29.850+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:02:29.852+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:02:29.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:02:30.108+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:02:30.115+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.270 seconds
+[2024-06-12T12:03:00.621+0000] {processor.py:161} INFO - Started process (PID=2737) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:00.622+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:03:00.624+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:03:00.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:00.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:00.890+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.273 seconds
+[2024-06-12T12:03:31.269+0000] {processor.py:161} INFO - Started process (PID=2796) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:31.273+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:03:31.278+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:03:31.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:31.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:03:31.596+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.331 seconds
+[2024-06-12T12:04:02.485+0000] {processor.py:161} INFO - Started process (PID=2855) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:02.487+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:04:02.490+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:04:02.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:02.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:02.817+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.335 seconds
+[2024-06-12T12:04:33.023+0000] {processor.py:161} INFO - Started process (PID=2914) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:33.024+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:04:33.026+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:04:33.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:33.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:04:33.299+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.280 seconds
+[2024-06-12T12:05:03.534+0000] {processor.py:161} INFO - Started process (PID=2973) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:03.536+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:05:03.537+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:05:03.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:03.850+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:03.859+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.328 seconds
+[2024-06-12T12:05:34.112+0000] {processor.py:161} INFO - Started process (PID=3032) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:34.113+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:05:34.114+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:05:34.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:34.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:05:34.395+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.287 seconds
+[2024-06-12T12:06:04.509+0000] {processor.py:161} INFO - Started process (PID=3091) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:04.510+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:06:04.511+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:06:04.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:04.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:04.785+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.280 seconds
+[2024-06-12T12:06:35.243+0000] {processor.py:161} INFO - Started process (PID=3150) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:35.244+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:06:35.245+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:06:35.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:35.479+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:06:35.487+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.247 seconds
+[2024-06-12T12:07:36.999+0000] {processor.py:161} INFO - Started process (PID=3268) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:07:37.000+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:07:37.002+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:07:37.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:07:37.233+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:07:37.239+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.243 seconds
+[2024-06-12T12:08:08.260+0000] {processor.py:161} INFO - Started process (PID=3328) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:08.261+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:08:08.262+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:08:08.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:08.481+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:08.489+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.231 seconds
+[2024-06-12T12:08:38.989+0000] {processor.py:161} INFO - Started process (PID=3387) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:38.991+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:08:38.992+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:08:38.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:39.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:08:39.269+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.283 seconds
+[2024-06-12T12:09:09.454+0000] {processor.py:161} INFO - Started process (PID=3446) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:09.455+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:09:09.456+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:09:09.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:09.708+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:09.715+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.264 seconds
+[2024-06-12T12:09:40.023+0000] {processor.py:161} INFO - Started process (PID=3505) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:40.024+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:09:40.025+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:09:40.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:40.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:09:40.279+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.259 seconds
+[2024-06-12T12:10:10.901+0000] {processor.py:161} INFO - Started process (PID=3564) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:10.902+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:10:10.903+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:10:10.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:11.180+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:11.189+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.291 seconds
+[2024-06-12T12:10:41.667+0000] {processor.py:161} INFO - Started process (PID=3623) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:41.668+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:10:41.669+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:10:41.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:41.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:10:41.932+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.269 seconds
+[2024-06-12T12:11:12.077+0000] {processor.py:161} INFO - Started process (PID=3682) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:12.078+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:11:12.080+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:11:12.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:12.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:12.319+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.246 seconds
+[2024-06-12T12:11:42.391+0000] {processor.py:161} INFO - Started process (PID=3741) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:42.391+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:11:42.392+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:11:42.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:42.634+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:11:42.644+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.257 seconds
+[2024-06-12T12:12:13.338+0000] {processor.py:161} INFO - Started process (PID=3800) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:13.339+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:12:13.340+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:12:13.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:13.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:13.510+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2024-06-12T12:12:43.721+0000] {processor.py:161} INFO - Started process (PID=3859) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:43.722+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:12:43.723+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:12:43.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:43.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:12:43.921+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.203 seconds
+[2024-06-12T12:13:13.988+0000] {processor.py:161} INFO - Started process (PID=3917) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:13.989+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:13:13.990+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:13:13.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:14.157+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:14.166+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.182 seconds
+[2024-06-12T12:13:44.214+0000] {processor.py:161} INFO - Started process (PID=3976) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:44.215+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:13:44.216+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:13:44.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:44.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:13:44.381+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.170 seconds
+[2024-06-12T12:14:14.781+0000] {processor.py:161} INFO - Started process (PID=4035) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:14.782+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:14:14.783+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:14:14.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:14.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:14.952+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2024-06-12T12:14:45.828+0000] {processor.py:161} INFO - Started process (PID=4094) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:45.828+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:14:45.829+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:14:45.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:45.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:14:45.988+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.163 seconds
+[2024-06-12T12:15:16.090+0000] {processor.py:161} INFO - Started process (PID=4153) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:16.091+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:15:16.092+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:15:16.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:16.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:16.251+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.164 seconds
+[2024-06-12T12:15:46.334+0000] {processor.py:161} INFO - Started process (PID=4212) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:46.335+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:15:46.336+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:15:46.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:46.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:15:46.492+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.162 seconds
+[2024-06-12T12:16:16.642+0000] {processor.py:161} INFO - Started process (PID=4271) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:16.642+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:16:16.644+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:16:16.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:16.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:16.811+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.173 seconds
+[2024-06-12T12:16:47.669+0000] {processor.py:161} INFO - Started process (PID=4330) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:47.670+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:16:47.671+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:16:47.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:47.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:16:47.841+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.176 seconds
+[2024-06-12T12:17:17.907+0000] {processor.py:161} INFO - Started process (PID=4389) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:17.907+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:17:17.908+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:17:17.908+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:18.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:18.068+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.165 seconds
+[2024-06-12T12:17:48.327+0000] {processor.py:161} INFO - Started process (PID=4454) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:48.328+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:17:48.329+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:17:48.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:48.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:17:48.506+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.182 seconds
+[2024-06-12T12:18:18.665+0000] {processor.py:161} INFO - Started process (PID=4513) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:18.666+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:18:18.667+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:18:18.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:18.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:18.825+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.163 seconds
+[2024-06-12T12:18:48.884+0000] {processor.py:161} INFO - Started process (PID=4572) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:48.885+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:18:48.886+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:18:48.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:49.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:18:49.057+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.176 seconds
+[2024-06-12T12:19:19.231+0000] {processor.py:161} INFO - Started process (PID=4630) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:19.232+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:19:19.233+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:19:19.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:19.400+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:19.409+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.182 seconds
+[2024-06-12T12:19:50.373+0000] {processor.py:161} INFO - Started process (PID=4689) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:50.374+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:19:50.375+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:19:50.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:50.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:19:50.541+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.171 seconds
+[2024-06-12T12:20:21.362+0000] {processor.py:161} INFO - Started process (PID=4748) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:21.362+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:20:21.364+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:20:21.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:21.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:21.524+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.166 seconds
+[2024-06-12T12:20:52.272+0000] {processor.py:161} INFO - Started process (PID=4807) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:52.273+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:20:52.274+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:20:52.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:52.450+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:20:52.458+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.190 seconds
+[2024-06-12T12:21:23.334+0000] {processor.py:161} INFO - Started process (PID=4866) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:23.335+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:21:23.336+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:21:23.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:23.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:23.515+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.184 seconds
+[2024-06-12T12:21:54.420+0000] {processor.py:161} INFO - Started process (PID=4925) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:54.421+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:21:54.422+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:21:54.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:54.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:21:54.597+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.180 seconds
+[2024-06-12T12:22:24.793+0000] {processor.py:161} INFO - Started process (PID=4984) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:24.794+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:22:24.795+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:22:24.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:24.950+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:24.959+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2024-06-12T12:22:55.739+0000] {processor.py:161} INFO - Started process (PID=5043) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:55.739+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:22:55.741+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:22:55.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:55.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:22:55.908+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.173 seconds
+[2024-06-12T12:23:25.965+0000] {processor.py:161} INFO - Started process (PID=5102) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:25.966+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:23:25.968+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:23:25.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:26.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:26.145+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.183 seconds
+[2024-06-12T12:23:57.026+0000] {processor.py:161} INFO - Started process (PID=5161) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:57.027+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:23:57.028+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:23:57.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:57.188+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:23:57.197+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2024-06-12T12:24:28.171+0000] {processor.py:161} INFO - Started process (PID=5220) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:28.172+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:24:28.174+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:24:28.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:28.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:28.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.179 seconds
+[2024-06-12T12:24:59.350+0000] {processor.py:161} INFO - Started process (PID=5279) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:59.351+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:24:59.352+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:24:59.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:59.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:24:59.545+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.198 seconds
+[2024-06-12T12:29:04.666+0000] {processor.py:161} INFO - Started process (PID=5739) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:04.667+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:29:04.668+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:29:04.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:04.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:04.966+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.306 seconds
+[2024-06-12T12:29:35.476+0000] {processor.py:161} INFO - Started process (PID=5799) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:35.477+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:29:35.478+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:29:35.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:35.659+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:29:35.670+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.197 seconds
+[2024-06-12T12:30:06.533+0000] {processor.py:161} INFO - Started process (PID=5858) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:06.534+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:30:06.536+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:30:06.535+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:06.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:06.703+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2024-06-12T12:30:37.690+0000] {processor.py:161} INFO - Started process (PID=5919) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:37.691+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-12T12:30:37.692+0000] {logging_mixin.py:188} INFO - [2024-06-12T12:30:37.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:37.865+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-12T12:30:37.875+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.189 seconds

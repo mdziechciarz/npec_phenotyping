@@ -1,0 +1,17 @@
+[2024-06-26T12:57:57.141+0000] {processor.py:161} INFO - Started process (PID=1623) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T12:57:57.525+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T12:57:57.907+0000] {logging_mixin.py:188} INFO - [2024-06-26T12:57:57.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T12:58:31.961+0000] {logging_mixin.py:188} INFO - [2024-06-26T12:58:31.905+0000] {timeout.py:68} ERROR - Process timed out, PID: 1623
+[2024-06-26T13:03:33.504+0000] {processor.py:161} INFO - Started process (PID=1760) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:03:33.520+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T13:03:33.602+0000] {logging_mixin.py:188} INFO - [2024-06-26T13:03:33.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:11:57.411+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:11:57.434+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T13:11:57.451+0000] {logging_mixin.py:188} INFO - [2024-06-26T13:11:57.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:16:51.566+0000] {processor.py:161} INFO - Started process (PID=2046) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:16:51.618+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T13:16:51.648+0000] {logging_mixin.py:188} INFO - [2024-06-26T13:16:51.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:17:23.001+0000] {logging_mixin.py:188} INFO - [2024-06-26T13:17:22.216+0000] {timeout.py:68} ERROR - Process timed out, PID: 2046
+[2024-06-26T13:31:13.662+0000] {processor.py:161} INFO - Started process (PID=2255) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-06-26T13:31:14.390+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-06-26T13:31:14.418+0000] {logging_mixin.py:188} INFO - [2024-06-26T13:31:14.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py

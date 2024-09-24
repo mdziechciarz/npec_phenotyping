@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>model_creation Module &#8212; Computer Vision 3 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="model_evaluation Module" href="model_evaluation.html" />
+    <link rel="prev" title="mask_prediction Module" href="mask_prediction.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="model-creation-module">
+<h1>model_creation Module<a class="headerlink" href="#model-creation-module" title="Link to this heading">¶</a></h1>
+<dl class="py function" id="module-model_creation">
+<dt class="sig sig-object py" id="model_creation.build_model">
+<span class="sig-prename descclassname"><span class="pre">model_creation.</span></span><span class="sig-name descname"><span class="pre">build_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_CHANNELS</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dropout_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learning_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">architecture</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'unet_a'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_creation.build_model" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="model_creation.build_unet_a">
+<span class="sig-prename descclassname"><span class="pre">model_creation.</span></span><span class="sig-name descname"><span class="pre">build_unet_a</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_CHANNELS</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dropout_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learning_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.001</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_creation.build_unet_a" title="Link to this definition">¶</a></dt>
+<dd><p>Build a U-Net model for image segmentation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>IMG_HEIGHT</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default is 256</em><em>)</em>) – Height of the input images.</p></li>
+<li><p><strong>IMG_WIDTH</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default is 256</em><em>)</em>) – Width of the input images.</p></li>
+<li><p><strong>IMG_CHANNELS</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default is 1</em><em>)</em>) – Number of channels in the input images.</p></li>
+<li><p><strong>num_filters</strong> (<em>list</em><em> of </em><em>int</em><em>, </em><em>optional</em>) – List of filter sizes for each convolutional layer.</p></li>
+<li><p><strong>dropout_rate</strong> (<em>list</em><em> of </em><em>float</em><em>, </em><em>optional</em>) – List of dropout rates for each layer.</p></li>
+<li><p><strong>learning_rate</strong> (<em>float</em><em>, </em><em>optional</em><em> (</em><em>default is 1e-3</em><em>)</em>) – Learning rate for the optimizer.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Compiled U-Net model.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>keras.models.Model</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Michal Dziechciarz</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function builds a U-Net model with configurable parameters for image segmentation tasks.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">build_model</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span>
+    <span class="n">IMG_HEIGHT</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span>
+    <span class="n">IMG_WIDTH</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span>
+    <span class="n">IMG_CHANNELS</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">num_filters</span><span class="o">=</span><span class="p">[</span><span class="mi">16</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">256</span><span class="p">],</span>
+    <span class="n">dropout_rate</span><span class="o">=</span><span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">],</span>
+    <span class="n">learning_rate</span><span class="o">=</span><span class="mf">1e-3</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<ul class="simple">
+<li><p>Constructs a U-Net model with a specified number of filters and dropout rates for each layer.</p></li>
+<li><p>The contraction path consists of several Conv2D, Dropout, and MaxPooling2D layers.</p></li>
+<li><p>The expansive path consists of Conv2DTranspose and Conv2D layers, with concatenations from the contraction path.</p></li>
+<li><p>The model is compiled with a specified learning rate, binary cross-entropy loss, and metrics including accuracy, F1 score, and IoU.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="model_creation.build_unet_b">
+<span class="sig-prename descclassname"><span class="pre">model_creation.</span></span><span class="sig-name descname"><span class="pre">build_unet_b</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">IMG_HEIGHT</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_WIDTH</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">IMG_CHANNELS</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_filters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dropout_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learning_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.001</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_creation.build_unet_b" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="model_creation.load_pretrained_model">
+<span class="sig-prename descclassname"><span class="pre">model_creation.</span></span><span class="sig-name descname"><span class="pre">load_pretrained_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_creation.load_pretrained_model" title="Link to this definition">¶</a></dt>
+<dd><p>Load a pre-trained model with custom objects.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>model_path</strong> (<em>str</em>) – Path to the pre-trained model file.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Loaded pre-trained model.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>keras.models.Model</p>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Michal Dziechciarz</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function loads a pre-trained model with custom objects (F1 score and IoU metrics).</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">load_pretrained_model</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">load_pretrained_model</span><span class="p">(</span><span class="s2">&quot;models/primary.h5&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<ul class="simple">
+<li><p>Loads the model from the specified file path.</p></li>
+<li><p>Ensures custom metrics (F1 score and IoU) are available during model loading.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="model_creation.save_model">
+<span class="sig-prename descclassname"><span class="pre">model_creation.</span></span><span class="sig-name descname"><span class="pre">save_model</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#model_creation.save_model" title="Link to this definition">¶</a></dt>
+<dd><p>Save a trained model to a specified path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> (<em>keras.models.Model</em>) – Trained model to be saved.</p></li>
+<li><p><strong>path</strong> (<em>str</em>) – Path to save the model file.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Author<span class="colon">:</span></dt>
+<dd class="field-even"><p>Michal Dziechciarz</p>
+</dd>
+</dl>
+<p><strong>Usage:</strong></p>
+<p>This function saves a trained Keras model to the specified file path.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">your_module</span> <span class="kn">import</span> <span class="n">save_model</span>
+
+<span class="n">save_model</span><span class="p">(</span><span class="n">trained_model</span><span class="p">,</span> <span class="s2">&quot;models/my_model.h5&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Details:</strong></p>
+<ul class="simple">
+<li><p>Saves the model in the specified path.</p></li>
+<li><p>Prints a success message upon saving the model.</p></li>
+</ul>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Computer Vision 3</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="data_loading.html">data_loading Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preprocessing.html">data_preprocessing Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation_metrics.html">evaluation_metrics Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instance_segmentation.html">instance_segmentation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="landmarks_detection.html">landmarks_detection Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mask_prediction.html">mask_prediction Module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">model_creation Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#model_creation.build_model"><code class="docutils literal notranslate"><span class="pre">build_model()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model_creation.build_unet_a"><code class="docutils literal notranslate"><span class="pre">build_unet_a()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model_creation.build_unet_b"><code class="docutils literal notranslate"><span class="pre">build_unet_b()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model_creation.load_pretrained_model"><code class="docutils literal notranslate"><span class="pre">load_pretrained_model()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model_creation.save_model"><code class="docutils literal notranslate"><span class="pre">save_model()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="model_evaluation.html">model_evaluation Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="model_training.html">model_training Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="root_length_measurement.html">root_length_measurement Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="mask_prediction.html" title="previous chapter">mask_prediction Module</a></li>
+      <li>Next: <a href="model_evaluation.html" title="next chapter">model_evaluation Module</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Michal Dziechciarz, Rens van den Berg, Stijn Heesters, Lea Bancovac, Neil Ross Daniel.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/model_creation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

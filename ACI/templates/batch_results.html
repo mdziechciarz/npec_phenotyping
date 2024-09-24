@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Batch Processing Scheduled</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #282c34;
+            color: #ffffff;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        .log-section {
+            margin-top: 30px;
+            background-color: #3a3f47;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Batch Processing Scheduled</h1>
+        </div>
+        <div class="log-section">
+            <h2>Task Scheduled</h2>
+            <p>Task ID: {{ task_id }}</p>
+            <p>Start Time: {{ start_time }}</p>
+            <p id="countdown"></p>
+        </div>
+        <div class="log-section mt-5">
+            <h2>Download Processed Files</h2>
+            <p>Once the batch processing is complete, you can download the processed files from the following link:</p>
+            <div id="download-links"></div>
+        </div>
+    </div>
+    <script>
+        var startTime = new Date("{{ start_time }}").getTime();
+        var countdownElement = document.getElementById('countdown');
+        var downloadLinksElement = document.getElementById('download-links');
+
+        function updateCountdown() {
+            var now = new Date().getTime();
+            var distance = startTime - now;
+            if (distance > 0) {
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                countdownElement.innerHTML = "Batch processing will start in " + minutes + "m " + seconds + "s";
+            } else {
+                countdownElement.innerHTML = "Batch processing has started.";
+                clearInterval(countdownInterval);
+                fetchDownloadLinks();
+            }
+        }
+
+        function fetchDownloadLinks() {
+            fetch('/results')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(file => {
+                        var link = document.createElement('a');
+                        link.href = '/download/' + file;
+                        link.innerText = file;
+                        downloadLinksElement.appendChild(link);
+                        downloadLinksElement.appendChild(document.createElement('br'));
+                    });
+                });
+        }
+
+        var countdownInterval = setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
